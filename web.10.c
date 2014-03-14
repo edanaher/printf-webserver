@@ -1,4 +1,7 @@
-// Tested on Gentoo gcc 4.4.7, 4.5.4, 4.6.3, 4.7.2, Debian gcc 4.4.5-8
+// Tested on:
+// - Gentoo gcc 4.4.7, 4.5.4, 4.6.3, 4.7.2,
+// - Debian gcc 4.4.5-8,
+// - Ubuntu 12.04 gcc 4.6.3-1ubuntu5
 // Only expected to work on x86_64.
 
 #include <stdio.h>
