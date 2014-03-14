@@ -1,7 +1,7 @@
 "Portable" printf webserver
 ===========================
 
-Inspired by http://tinyhack.com/2014/03/12/implementing-a-web-server-in-a-single-printf-call/ , this is a moderately portable webserver in a single printf command.  "Portable" in this case means it is expected to work on any x86_64 Linux system using a gcc version from 4.4 to 4.7.  More portability should be possible; check for higher-numbered files that may work on more gcc versions, x86, or maybe even OS X.
+Inspired by http://tinyhack.com/2014/03/12/implementing-a-web-server-in-a-single-printf-call/ , this is a moderately portable webserver in a single printf command.  "Portable" in this case means it is expected to work on any x86_64 Linux system using a gcc version from 4.4 to 4.7.  Shockingly, it even seems to work on 4.4-4.6 with -O3 (though not -Os).  More portability should be possible; check for higher-numbered files that may work on more gcc versions, x86, or maybe even OS X.
 
 Explanation
 ===========

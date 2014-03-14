@@ -1,5 +1,5 @@
 // Tested on:
-// - Gentoo gcc 4.4.7, 4.5.4, 4.6.3, 4.7.2,
+// - Gentoo gcc 4.4.7, 4.5.4, 4.6.3, 4.7.2, as well as 4.4-4.6 with -O3.  Fails on 4.7 with -O3
 // - Debian gcc 4.4.5-8,
 // - Ubuntu 12.04 gcc 4.6.3-1ubuntu5
 // Only expected to work on x86_64.
